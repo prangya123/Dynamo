@@ -1,0 +1,4 @@
+user_name,product_name,2FA,authentication,bucket_name,email,full_name,relation,shared-or-bot-user,status,company_name
+Pkar-test111,FOLDER1,false,password,buket_name1,prangya.kar@manifestmedex.org,,R,True,Active,company_name
+Pkar-test222,FOLDER2,false,password,buket_name1,prangya.kar@manifestmedex.org,,R,true,Active,company_name
+Pkar-test333,FOLDER3,false,password,buket_name1,prangya.kar@manifestmedex.org,,R,true,Active,company_name
