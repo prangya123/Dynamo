@@ -1,0 +1,19 @@
+####create WIP cognito user johndoe############
+aws cognito-idp admin-create-user \
+    --user-pool-id <USER-POOL_ID> \
+    --username johndoe \
+    --user-attributes Name=email,Value=<EMAIL> \
+    --desired-delivery-mediums "EMAIL" 
+
+ ####   --message-action SUPPRESS  ####this will suppress and do not send email
+
+
+####create MFA cognito user johndoemfa############
+aws cognito-idp admin-create-user \
+    --user-pool-id <USER-POOL_ID> \
+    --username janedoe \
+    --user-attributes Name=email,Value=<EMAIL> \
+    --desired-delivery-mediums "EMAIL" 
+
+####   --message-action SUPPRESS  ####this will suppress and do not send email
+
